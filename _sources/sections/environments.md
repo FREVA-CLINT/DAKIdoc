@@ -2,7 +2,7 @@
 
 If the code is written in Python, it can be very convenient to use *conda* package manager (https://docs.conda.io/en/latest/). With *conda*, it is possible to quickly install and manage the required packages and their dependencies by creating "environments".
 
-### Example with tensorflow
+## Example with tensorflow
 
 Our code is a simple "Hello world" code. It is using *tensorflow* and has some dependencies. Just to take an example, let say it depends on a specific version (3.5.1) of matplotlib.
 
