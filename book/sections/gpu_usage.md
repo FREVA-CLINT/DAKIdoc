@@ -3,7 +3,7 @@
 It might be important for debugging purposes to check if the code is actually using GPUs and how?
 In this section, we are giving some instructions to monitor this usage at a lower level.
 
-#@ With tensorflow
+## With tensorflow
 
 Assuming the user has created a conda environment including tensorflow ([See *environments* section](./environments.md)), we can submit the following job script:
 
