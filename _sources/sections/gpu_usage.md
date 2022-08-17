@@ -43,9 +43,13 @@ With a successful installation, the output file "testgpu-tf.log" created in the 
 The NVIDIA management library is providing a useful command line utility called *nvidia-smi* (https://developer.nvidia.com/nvidia-system-management-interface). It can be used to get more detailed information about the GPU usage (.e.g, number of used GPUs, memory usage, etc.).
 
 This information is provided in real time by logging to the node where the code is running. For example, if the computation node is l40366, one should first log to this node with:
-`ssh l40366`
+```
+ssh l40366
+```
 and then execute:
-`nvidia-smi`
+```
+nvidia-smi
+```
 
 The result of the command line should be similar to the following screenshot:
 ```{figure} /media/nvidia-smi_example.png

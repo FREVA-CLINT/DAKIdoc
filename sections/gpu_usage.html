@@ -385,10 +385,14 @@ In this section, we are giving some instructions to monitor this usage at a lowe
 <section id="nvidia-system-management-interface">
 <h2>NVIDIA System Management Interface<a class="headerlink" href="#nvidia-system-management-interface" title="Permalink to this headline">#</a></h2>
 <p>The NVIDIA management library is providing a useful command line utility called <em>nvidia-smi</em> (<a class="reference external" href="https://developer.nvidia.com/nvidia-system-management-interface">https://developer.nvidia.com/nvidia-system-management-interface</a>). It can be used to get more detailed information about the GPU usage (.e.g, number of used GPUs, memory usage, etc.).</p>
-<p>This information is provided in real time by logging to the node where the code is running. For example, if the computation node is l40366, one should first log to this node with:
-<code class="docutils literal notranslate"><span class="pre">ssh</span> <span class="pre">l40366</span></code>
-and then execute:
-<code class="docutils literal notranslate"><span class="pre">nvidia-smi</span></code></p>
+<p>This information is provided in real time by logging to the node where the code is running. For example, if the computation node is l40366, one should first log to this node with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ssh</span> <span class="n">l40366</span>
+</pre></div>
+</div>
+<p>and then execute:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">nvidia</span><span class="o">-</span><span class="n">smi</span>
+</pre></div>
+</div>
 <p>The result of the command line should be similar to the following screenshot:</p>
 <figure class="align-default">
 <img alt="../_images/nvidia-smi_example.png" src="../_images/nvidia-smi_example.png" />
