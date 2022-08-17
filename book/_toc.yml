@@ -1,0 +1,5 @@
+format: jb-book
+root: sections/intro
+chapters:
+- file: sections/environments
+- file: sections/gpu_usage

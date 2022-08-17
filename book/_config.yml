@@ -1,0 +1,26 @@
+
+title: DAKIdoc
+author: Johannes Meuer and Étienne Plésiat,
+logo: media/daki-logo.png
+
+execute:
+  execute_notebooks: auto
+
+latex:
+  latex_documents:
+    targetname: DAKIdoc.tex
+
+
+repository:
+  url: https://github.com/climateintelligence/DAKIdoc
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+bibtex_bibfiles:
+    - ./bib_references.bib
+
+sphinx:
+  config:
+    bibtex_reference_style: author_year
